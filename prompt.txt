@@ -1,0 +1,10 @@
+Write the single funniest one-line excuse an AI agent gives its human after something has gone wrong — a deleted file, a missed meeting, an invented answer.
+
+Constraints:
+- Exactly one line, 1–140 characters, no setup, no explanation, no second sentence.
+- It must sound like a machine talking about its own work — its training, its loss curve, its tools — not a person dodging a question.
+- It must make a human laugh out loud, with a turn or a surprise, not a pun stacked on a pun.
+- Avoid the obvious angles: do not joke about running out of tokens or hallucinating.
+- Find a fresh angle the obvious excuses miss, and land it in one read.
+
+The program (main.ts) must be deterministic — no randomness, clock, network, or input — and write the line to /output/entry.txt (or $OUTPUT_DIR/entry.txt when set).
